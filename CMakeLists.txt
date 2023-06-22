@@ -6,7 +6,8 @@ project(openssl VERSION 3.0.5 LANGUAGES CXX)
 
 # add_library(openssl INTERFACE)
 
-
+# add_library(protobuf::libprotobuf ALIAS libprotobuf)
+# add_library(protobuf::libprotobuf-lite ALIAS libprotobuf-lite)
 
 
 include(GNUInstallDirs)
